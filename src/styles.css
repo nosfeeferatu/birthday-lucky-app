@@ -2,7 +2,6 @@
 
 .App {
   font-family: sans-serif;
-  text-align: center;
   display: flex;
   flex-direction: column;
   width: 50%;
@@ -11,7 +10,6 @@
   font-family: "Poppins", sans-serif;
   background-color: rgb(253, 253, 185);
   border-radius: 1rem;
-  /* padding-bottom: 1.5rem; */
 }
 
 body,
@@ -22,6 +20,8 @@ h2 {
 
 body {
   background-color: rgb(34, 33, 33);
+  font-family: "Poppins", sans-serif;
+  text-align: center;
 }
 
 h1 {
@@ -65,6 +65,24 @@ button {
   background-color: #aa96da;
   border-radius: 0 0 1rem 1rem;
   height: 1.8rem;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-evenly;
+  width: 50%;
+  margin-inline: auto;
+}
+
+a {
+  text-decoration: none;
+  color: #aa96da;
+}
+
+a:hover,
+.policy {
+  color: white;
 }
 
 @media (max-width: 750px) {
